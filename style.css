@@ -1,0 +1,57 @@
+body {
+    font-family: Calibri;
+    margin: 0px;
+    margin-top: -21px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+nav{
+    float: left;
+    height: 600px;
+    width: 30%;
+    background-color: rgb(93, 249, 249);
+    display: flex;
+}
+
+#linha {
+    background-color: white;
+    height: 25px;
+    width: 80%;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+#nav{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10%;
+}
+
+.navs {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#column {
+    margin-top: 60%;
+}
+
+article {
+    background-color: rgb(40, 229, 40);
+    float: right;
+    height: 600px;
+    width: 70%;
+    display: flex;
+}
+
+footer {
+    background-color: brown;
+    height: 780px;
+    width: 100%;
+}
